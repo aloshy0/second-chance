@@ -12,4 +12,8 @@ async function connectToDatabase() {
     return db;
 }
 
+<<<<<<< HEAD
 module.exports = { connectToDatabase };
+=======
+module.exports = { connectToDatabase };
+>>>>>>> 4153672bf1547fa7b7c916d06aac61a5cfef1976
