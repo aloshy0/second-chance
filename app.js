@@ -7,6 +7,7 @@ const authRoutes = require("./routes/authRoutes");
 const app = express();
 
 app.use(express.json());
+app.use(express.static("public"));
 
 /* routes */
 
